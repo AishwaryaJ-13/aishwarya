@@ -1,0 +1,37 @@
+
+
+ER diagram
+  
+
+	1.Customer Entity
+		* Customer_name
+		* customer_mobile
+		* customer_email
+		* customer_username
+		* customer_password
+		* customer_address
+
+	2. Tour Entity
+		*tour_id
+		* tour_agent_id
+		* tour_customer_id
+		*tour_description
+		* tour_name
+		* tour_type
+		* tour_place
+
+	3. Package Entity
+		* package_id
+		* package_tour_id
+		* package_name
+		* package_amount
+		* package_total
+		* package_type
+		* package_description
+
+	4. Transportation Entity
+		* transportation_id
+		* transportation_tour_id
+		* vtype
+		* vdescription
+		* transportation_name
